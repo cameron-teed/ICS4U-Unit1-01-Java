@@ -1,6 +1,7 @@
-package ca.mths.Unit1.Unit1_01.java.Hello_World;
+package ca.mths.unit1.unit1_01.java.hello_world;
+
 /**
-* The Hello World! program implements an application that
+* The Hello World program implements an application that
 * simply displays "Hello World!" to the standard output.
 *
 * @author  Cameron Teed
@@ -8,11 +9,12 @@ package ca.mths.Unit1.Unit1_01.java.Hello_World;
 * @since   2020-04-21
 */
 final class HelloWorld {
-  private HelloWorld() {
-      // Prevent instantiation
-      // Optional: throw an exception e.g. AssertionError
-      // if this ever *is* called
-  }
+    private HelloWorld() {
+        // Prevent instantiation
+        // Optional: throw an exception e.g. AssertionError
+        // if this ever *is* called
+        throw new IllegalStateException("Cannot be instantiated");
+    }
   /**
   * This method prints out "Hello, World!".
   * @param args
